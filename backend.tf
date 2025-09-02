@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "devops-hackathon-tfstate-hu1"
+    bucket         = "devops-tfstate"
     key            = "dev/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-locks"
